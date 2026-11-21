@@ -1,0 +1,12 @@
+# [AAAA-MM-JJ] — [Sujet]
+- Date de vérification :
+- Date de l'événement :
+- Sources officielles :
+- Fait(s) vérifié(s) :
+- Incertitudes / limites :
+- Catégorie et licence du modèle, si applicable :
+- Impact technique :
+- Impact économique / DSI :
+- Prochaine action OSEF : fiche / lab / meetup / upstream / business
+- Responsable :
+- Statut : à vérifier
