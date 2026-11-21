@@ -1,0 +1,48 @@
+name: OSEF AI Watch - upstream releases
+on:
+  schedule:
+    - cron: "15 8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: osef-ai-watch
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Collect upstream release metadata
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/ai_watch.py
+      - name: Open review PR if report changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add watch/
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          BRANCH="automation/ai-watch-$(date -u +%Y%m%d)"
+          git switch -c "$BRANCH"
+          git commit -m "watch: collect upstream release candidates $(date -u +%F)"
+          git push --set-upstream origin "$BRANCH"
+          gh pr create --base main --head "$BRANCH" \
+            --title "AI Watch: upstream release candidates $(date -u +%F)" \
+            --body "Auto-collected upstream release metadata. **Human verification required** before merge. Linked to #7."
