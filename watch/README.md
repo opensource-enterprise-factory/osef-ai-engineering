@@ -16,3 +16,13 @@ Conserver ici des synthèses validées de la veille ; la tâche planifiée ChatG
 
 ## Modèle
 Voir [template](TEMPLATE.md).
+
+## Éditions validées et fiches thématiques
+
+### 21 novembre 2026
+- [Édition de référence](2026/11/2026-11-21-baseline.md)
+- [AI-WATCH-20261121-01 — Inkling 2 Mini / Olala mini](2026/11/AI-WATCH-20261121-01.md) → AI-001, AI-002
+- [AI-WATCH-20261121-02 — Valkey 9.2](2026/11/AI-WATCH-20261121-02.md) → AI-002, AI-004
+- [AI-WATCH-20261121-03 — Business AI-as-a-Service](2026/11/AI-WATCH-20261121-03.md) → AI-006, AI-BIZ-001
+
+Ces fiches distinguent annonces officielles, propositions OSEF et résultats d'essais non encore réalisés.
