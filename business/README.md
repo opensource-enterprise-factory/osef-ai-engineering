@@ -21,3 +21,11 @@ Les marges, coûts et besoins du marché sont des hypothèses à mesurer avec de
 - [AI-BIZ-005 — AI Trust & Operations](https://github.com/opensource-enterprise-factory/osef-ai-engineering/issues/26)
 
 Les offres et partenariats sont au stade **hypothèse commerciale**, aucun client, tarif, revenu ou contrat n'est présumé.
+
+## Nouvelles pistes issues du 22 novembre 2026
+
+- **Speech AI / centres de contact** — [veille](../watch/2026/11/AI-WATCH-20261122-02.md) → [AI-LAB-013](https://github.com/opensource-enterprise-factory/osef-ai-engineering/issues/27) → [AI-MEETUP-008](https://github.com/opensource-enterprise-factory/osef-ai-engineering/issues/28) → [AI-BIZ-002](https://github.com/opensource-enterprise-factory/osef-ai-engineering/issues/23). Hypothèse d'offre, qualité sur accents africains à mesurer.
+- **Optimisation GPU / compatibilité vLLM** — [veille](../watch/2026/11/AI-WATCH-20261122-01.md) → [AI-LAB-008](https://github.com/opensource-enterprise-factory/osef-ai-engineering/issues/12) → [AI-MEETUP-003](https://github.com/opensource-enterprise-factory/osef-ai-engineering/issues/18) → [AI-BIZ-003](https://github.com/opensource-enterprise-factory/osef-ai-engineering/issues/24). Potentiel économique non mesuré.
+- **AI Router vs Private AI** — [veille](../watch/2026/11/AI-WATCH-20261122-03.md) → [AI-LAB-012](https://github.com/opensource-enterprise-factory/osef-ai-engineering/issues/16) → [AI-MEETUP-007](https://github.com/opensource-enterprise-factory/osef-ai-engineering/issues/22) → [AI-BIZ-004](https://github.com/opensource-enterprise-factory/osef-ai-engineering/issues/25). Résidence des données et coût à vérifier.
+
+Les pistes de revenus ne constituent ni des ventes, ni des partenariats, ni des produits disponibles.
