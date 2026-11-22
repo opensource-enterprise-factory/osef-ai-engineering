@@ -51,3 +51,10 @@ Voir [le catalogue complet](offers/README.md) :
 - [AI Training & Advisory](offers/06-AI-TRAINING-ADVISORY.md) — Ateliers DSI, bootcamps, transfert.
 
 Chaque fiche décrit diagnostic, POC, production, stack candidate, exclusions, critères d'acceptation, revenus possibles et liens veille/labs/meetups. Ces propositions ne doivent pas être présentées comme des offres déjà contractualisées.
+
+## Dossier d'exécution — Enterprise Knowledge AI (en revue)
+
+- [Kit opérationnel Enterprise Knowledge AI](enterprise-knowledge/README.md) : diagnostic DSI, architecture RAG et ACL, recette sécurité/qualité, TCO et chiffrage, organisation RACI.
+- [Issue AI-BIZ-006 #31](https://github.com/opensource-enterprise-factory/osef-ai-engineering/issues/31) : coordination de la mise en œuvre.
+
+**Statut :** documentation proposée en PR ; aucun lab ou déploiement client exécuté par cette documentation. Prospects, budgets et contrats restent dans un espace privé.
