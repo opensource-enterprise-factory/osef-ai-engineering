@@ -1,0 +1,25 @@
+name: AI-LAB-010 lot 1 tests
+on:
+  pull_request:
+    paths:
+      - 'labs/AI-LAB-010/**'
+      - '.github/workflows/ai-lab-010-tests.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'labs/AI-LAB-010/**'
+      - '.github/workflows/ai-lab-010-tests.yml'
+jobs:
+  unit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Unit tests
+        run: python3 -m unittest discover -s labs/AI-LAB-010/tests -v
+      - name: CLI smoke test
+        run: python3 labs/AI-LAB-010/scripts/retrieve.py --group OPERATIONS --query 'réclamation virement' > /dev/null
