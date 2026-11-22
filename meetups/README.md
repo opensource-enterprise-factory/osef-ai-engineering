@@ -21,3 +21,13 @@ Formats, intervenants et dates restent à valider.
 Toutes les sessions sont **proposées** et non planifiées. Chaque fiche détaille le public, le déroulé 75 min, la démonstration (ou protocole de remplacement si le lab n'est pas prêt), le livrable et les critères de préparation.
 
 **Cadence suggérée :** une session toutes les deux semaines, sous réserve de disponibilité des référents et de validation préalable des labs. Le programme parent reste [AI-MEETUP-001](https://github.com/opensource-enterprise-factory/osef-ai-engineering/issues/9).
+
+## Compléments issus de la veille du 22 novembre 2026
+
+| Veille | Meetup | Issue | Statut |
+|---|---|---|---|
+| [Compatibilité vLLM / Inkling 2](../watch/2026/11/AI-WATCH-20261122-01.md) | Segment supplémentaire à « IA locale » | [AI-MEETUP-003 #18](https://github.com/opensource-enterprise-factory/osef-ai-engineering/issues/18) | Proposé |
+| [Speech AI / Rumble-2-Flash](../watch/2026/11/AI-WATCH-20261122-02.md) | **Nouveau :** benchmark vocal et français d'Afrique | [AI-MEETUP-008 #28](https://github.com/opensource-enterprise-factory/osef-ai-engineering/issues/28) | Proposé |
+| [Routage Hugging Face / OpenRouter](../watch/2026/11/AI-WATCH-20261122-03.md) | Segment supplémentaire à « Business model Private AI » | [AI-MEETUP-007 #22](https://github.com/opensource-enterprise-factory/osef-ai-engineering/issues/22) | Proposé |
+
+Aucun événement, date, invité ni démonstration n'est confirmé ; chaque session dépend de la validation technique et de l'équipe d'organisation.
