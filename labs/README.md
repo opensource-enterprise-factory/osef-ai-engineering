@@ -22,3 +22,13 @@ Chaque lab doit fournir : objectifs, prérequis matériels, versions, licences, 
 | AI-LAB-012 | AI-as-a-Service : TCO et SLA | [#16](https://github.com/opensource-enterprise-factory/osef-ai-engineering/issues/16) | VM + tableur |
 
 **État :** issues de cadrage créées ; implémentations et résultats **non réalisés**. Les résultats doivent être mesurés et sourcés avant publication. Prévoir des tests avec données synthétiques.
+
+## Compléments de la veille du 22 novembre 2026
+
+| Source de veille | Action | Lab | Statut |
+|---|---|---|---|
+| [vLLM / Inkling 2](../watch/2026/11/AI-WATCH-20261122-01.md) | Tests GPU Ampere/Ada ajoutés à l'existant | [AI-LAB-008 #12](https://github.com/opensource-enterprise-factory/osef-ai-engineering/issues/12) | À réaliser |
+| [Rumble-2-Flash](../watch/2026/11/AI-WATCH-20261122-02.md) | **Nouveau :** benchmark ASR en français d'Afrique | [AI-LAB-013 #27](https://github.com/opensource-enterprise-factory/osef-ai-engineering/issues/27) | À réaliser |
+| [Hugging Face / OpenRouter](../watch/2026/11/AI-WATCH-20261122-03.md) | Scénarios de routage ajoutés à l'existant | [AI-LAB-012 #16](https://github.com/opensource-enterprise-factory/osef-ai-engineering/issues/16) | À réaliser |
+
+**Aucun résultat expérimental n'est encore affirmé.** Les nouveaux sujets enrichissent les labs déjà ouverts, sauf Speech AI qui constitue un banc d'essai distinct.
