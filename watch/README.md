@@ -26,3 +26,10 @@ Voir [template](TEMPLATE.md).
 - [AI-WATCH-20261121-03 — Business AI-as-a-Service](2026/11/AI-WATCH-20261121-03.md) → AI-006, AI-BIZ-001
 
 Ces fiches distinguent annonces officielles, propositions OSEF et résultats d'essais non encore réalisés.
+
+### 22 novembre 2026
+- [AI-WATCH-20261122-01 — vLLM / Inkling 2 : compatibilité Ampere/Ada](2026/11/AI-WATCH-20261122-01.md) → AI-002, AI-LAB-008
+- [AI-WATCH-20261122-02 — Rumble-2-Flash / Speech AI](2026/11/AI-WATCH-20261122-02.md) → AI-003, AI-BIZ-002
+- [AI-WATCH-20261122-03 — Hugging Face / OpenRouter : routage et souveraineté](2026/11/AI-WATCH-20261122-03.md) → AI-006, AI-BIZ-001, AI-LAB-012
+
+Les fiches distinguent les sources primaires, les annonces des éditeurs, les travaux upstream non fusionnés, et les hypothèses OSEF non testées.
