@@ -1,0 +1,29 @@
+name: AI-LAB-013 ASR scoring tests
+
+on:
+  pull_request:
+    paths:
+      - "labs/AI-LAB-013/**"
+      - ".github/workflows/ai-lab-013-tests.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  scoring-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Unit tests
+        run: python3 -m unittest discover -s labs/AI-LAB-013/tests -v
+      - name: Synthetic CSV smoke test
+        run: |
+          python3 labs/AI-LAB-013/scripts/score_asr.py \
+            --input labs/AI-LAB-013/examples/synthetic-transcripts.csv \
+            --output /tmp/osef-ai-lab013-scores.json
+          python3 -c 'import json; d=json.load(open("/tmp/osef-ai-lab013-scores.json")); assert d["status"]=="scoring_only_no_inference"; assert d["scores"]["all"]["samples"]==2'
