@@ -58,3 +58,14 @@ Chaque fiche décrit diagnostic, POC, production, stack candidate, exclusions, c
 - [Issue AI-BIZ-006 #31](https://github.com/opensource-enterprise-factory/osef-ai-engineering/issues/31) : coordination de la mise en œuvre.
 
 **Statut :** documentation proposée en PR ; aucun lab ou déploiement client exécuté par cette documentation. Prospects, budgets et contrats restent dans un espace privé.
+
+## Open Source-to-Business Engine — du Lab au premier client
+
+- [Parcours complet Veille → Lab → Meetup → Acquisition → Qualification → Diagnostic payé → POC payé → Production → Support](funnel/README.md)
+- [Plan d'exécution de 12 semaines](funnel/12-WEEK-EXECUTION-PLAN.md)
+- [Kit Meetup et landing / CTA volontaire](funnel/MEETUP-TO-LEAD.md)
+- [Pipeline CRM privé et qualification](funnel/LEAD-QUALIFICATION-AND-CRM.md)
+- [Mesures du funnel et conversion](funnel/FUNNEL-KPIS.md)
+- [Owners, règles de passage et routine](funnel/OWNERSHIP-AND-GATES.md)
+
+Ce dispositif est proposé en PR. Les exemples chiffrés sont **fictifs** ; ne pas confondre inscriptions à un meetup et demandes de prospection. Aucun contact réel ou information confidentielle ne doit être publié dans GitHub.
