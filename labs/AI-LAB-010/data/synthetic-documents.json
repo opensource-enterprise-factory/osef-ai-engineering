@@ -1,0 +1,8 @@
+[
+  {"id":"RH-001","title":"Congés annuels fictifs","version":"1.0","allowed_groups":["RH"],"text":"Pour les congés annuels fictifs, le responsable RH enregistre la demande et vérifie le solde dans l'outil de démonstration."},
+  {"id":"RH-002","title":"Formation collaborateurs","version":"1.0","allowed_groups":["RH"],"text":"La formation interne fictive est demandée par le responsable RH puis évaluée en fin de session."},
+  {"id":"OP-001","title":"Réclamations de virements fictifs","version":"1.0","allowed_groups":["OPERATIONS"],"text":"Une réclamation de virement fictif est enregistrée par un agent opérations avec un numéro de suivi puis transmise au responsable des réclamations."},
+  {"id":"OP-002","title":"Traitement des dossiers agence","version":"1.0","allowed_groups":["OPERATIONS"],"text":"Le dossier agence fictif est vérifié par les opérations avant archivage dans le registre de démonstration."},
+  {"id":"COM-001","title":"Consignes générales","version":"1.0","allowed_groups":["RH","OPERATIONS"],"text":"Les collaborateurs utilisent les documents de démonstration uniquement pour la formation. Aucun document réel client n'est autorisé."},
+  {"id":"COM-002","title":"Demande de support fictive","version":"1.0","allowed_groups":["RH","OPERATIONS"],"text":"Chaque utilisateur signale un incident de l'outil de formation à son référent support et conserve son identifiant de ticket fictif."}
+]
