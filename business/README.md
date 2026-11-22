@@ -29,3 +29,25 @@ Les offres et partenariats sont au stade **hypothèse commerciale**, aucun clien
 - **AI Router vs Private AI** — [veille](../watch/2026/11/AI-WATCH-20261122-03.md) → [AI-LAB-012](https://github.com/opensource-enterprise-factory/osef-ai-engineering/issues/16) → [AI-MEETUP-007](https://github.com/opensource-enterprise-factory/osef-ai-engineering/issues/22) → [AI-BIZ-004](https://github.com/opensource-enterprise-factory/osef-ai-engineering/issues/25). Résidence des données et coût à vérifier.
 
 Les pistes de revenus ne constituent ni des ventes, ni des partenariats, ni des produits disponibles.
+
+## Lancement commercial 90 jours — dossier en cours de revue (22 novembre 2026)
+
+- [Plan de mise en marché et étapes 90 jours](GO-TO-MARKET-90D.md)
+- [Catalogue commercial, périmètres et fourchettes FCFA **hypothétiques**](COMMERCIAL-CATALOGUE.md)
+- [Playbook DSI, questions de découverte et prospection](DSI-SALES-PLAYBOOK.md)
+- [Devis fictif et trame contractuelle / SLA non contractuels](QUOTE-AND-SUPPORT-TEMPLATES.md)
+- [Routines commerciales, définitions KPI et confidentialité](SALES-OPERATING-RHYTHM.md)
+
+**Ces documents sont sur la branche de proposition avant validation/merge.** Ne pas publier de clients, pipeline nominatif, négociations ou contrats dans le dépôt public. Les prix indicatifs sont des hypothèses de test commercial, pas des tarifs du marché ni une offre ferme.
+
+## Six fiches d'offres détaillées (version de travail)
+
+Voir [le catalogue complet](offers/README.md) :
+- [AI Data Foundation](offers/01-AI-DATA-FOUNDATION.md) — RAG, données et assistant documentaire.
+- [Private AI Platform](offers/02-PRIVATE-AI-PLATFORM.md) — Serving, exploitation, services managés.
+- [AI Trust & Security](offers/03-AI-TRUST-SECURITY.md) — Audit, contrôles et gouvernance.
+- [AI Infrastructure Engineering](offers/04-AI-INFRASTRUCTURE-ENGINEERING.md) — GPU, calcul, benchmark et coûts.
+- [Industry AI Solutions](offers/05-INDUSTRY-AI-SOLUTIONS.md) — Applications métiers et workflows.
+- [AI Training & Advisory](offers/06-AI-TRAINING-ADVISORY.md) — Ateliers DSI, bootcamps, transfert.
+
+Chaque fiche décrit diagnostic, POC, production, stack candidate, exclusions, critères d'acceptation, revenus possibles et liens veille/labs/meetups. Ces propositions ne doivent pas être présentées comme des offres déjà contractualisées.
