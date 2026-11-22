@@ -1,0 +1,22 @@
+[
+  {
+    "group": "OPERATIONS",
+    "question": "Comment traiter une réclamation de virement ?",
+    "expected_id": "OPS-001"
+  },
+  {
+    "group": "RH",
+    "question": "Comment déposer une demande de congé ?",
+    "expected_id": "RH-001"
+  },
+  {
+    "group": "RH",
+    "question": "Comment obtenir une attestation de travail ?",
+    "expected_id": "RH-002"
+  },
+  {
+    "group": "OPERATIONS",
+    "question": "Comment ouvrir un ticket opérationnel ?",
+    "expected_id": "OPS-002"
+  }
+]
