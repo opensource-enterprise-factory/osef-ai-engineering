@@ -1,0 +1,58 @@
+[
+  {
+    "id": "OPS-001",
+    "title": "Réclamation de virement",
+    "version": "1.0-fictive",
+    "groups": [
+      "OPERATIONS"
+    ],
+    "text": "Dans cette entreprise fictive, enregistrer une réclamation de virement dans le registre de test et notifier le service opérations. Ne pas traiter cette procédure comme une instruction bancaire réelle."
+  },
+  {
+    "id": "OPS-002",
+    "title": "Ouverture de ticket opérationnel",
+    "version": "1.0-fictive",
+    "groups": [
+      "OPERATIONS"
+    ],
+    "text": "Le collaborateur opérations ouvre un ticket de démonstration avec un identifiant fictif et consigne la catégorie de demande dans le tableau de test."
+  },
+  {
+    "id": "RH-001",
+    "title": "Demande de congé",
+    "version": "1.0-fictive",
+    "groups": [
+      "RH"
+    ],
+    "text": "Dans la société fictive, une demande de congé est enregistrée dans l'outil RH de démonstration, puis validée par un responsable fictif."
+  },
+  {
+    "id": "RH-002",
+    "title": "Attestation de travail",
+    "version": "1.0-fictive",
+    "groups": [
+      "RH"
+    ],
+    "text": "Pour une attestation de travail dans le jeu de test, le service RH vérifie la demande synthétique et crée une attestation fictive."
+  },
+  {
+    "id": "GEN-001",
+    "title": "Sécurité du poste informatique",
+    "version": "1.0-fictive",
+    "groups": [
+      "RH",
+      "OPERATIONS"
+    ],
+    "text": "Dans ce laboratoire fictif, verrouiller l'écran du poste de travail lors de toute absence et signaler les incidents au canal de test."
+  },
+  {
+    "id": "GEN-002",
+    "title": "Accueil des nouveaux collaborateurs",
+    "version": "1.0-fictive",
+    "groups": [
+      "RH",
+      "OPERATIONS"
+    ],
+    "text": "L'accueil dans cette société de démonstration comprend une présentation des règles internes fictives et une visite des ressources autorisées."
+  }
+]
